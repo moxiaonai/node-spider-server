@@ -5,7 +5,7 @@ function sc_send(html) {
         'desp': html,
     }
     request.post({
-        url: 'https://sc.ftqq.com/SCU23154Td7895533f583c9dc4e852f203aecdd835aa93a9feb6ab.send',
+        url: 'https://sc.ftqq.com/.send',
         form: params,
         },
         function(err,response,body){
