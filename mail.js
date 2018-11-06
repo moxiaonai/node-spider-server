@@ -15,7 +15,7 @@ module.exports.sendMail = function(html) {
     try {
         var options = {
             from           : '"moxiaonai" <wwjnzs@163.com>',
-            to             : '"moxiaonai" <admin@moxiaonai.cn>, "wangping" <1054864949@qq.com>',//可一个或多个以,区分
+            to             : '"moxiaonai" <admin@moxiaonai.cn>',//可一个或多个以,区分
             subject        : '有新的预售发布了，快去查看吧~',
             text           : '有新的预售发布了，快去查看吧~',
             html           : html,
