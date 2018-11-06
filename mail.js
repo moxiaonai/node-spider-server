@@ -5,8 +5,8 @@ var config = {
     host: 'smtp.163.com',
     port: 25,
     auth: {
-        user: 'wwjnzs@163.com', //刚才注册的邮箱账号
-        pass: 'wwj@131410'  //邮箱填邮箱密码，其他邮箱有授权码，请填写授权码
+        user: '***@163.com', //刚才注册的邮箱账号
+        pass: '12345'  //邮箱填邮箱密码，其他邮箱有授权码，请填写授权码
     }
 };
 module.exports.sendMail = function(html) {
